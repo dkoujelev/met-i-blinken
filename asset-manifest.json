@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/met_i_blinken/static/css/main.c5e94fbc.chunk.css",
-    "main.js": "/met_i_blinken/static/js/main.37b8abe8.chunk.js",
-    "main.js.map": "/met_i_blinken/static/js/main.37b8abe8.chunk.js.map",
-    "runtime~main.js": "/met_i_blinken/static/js/runtime~main.39a52618.js",
-    "runtime~main.js.map": "/met_i_blinken/static/js/runtime~main.39a52618.js.map",
-    "static/js/2.2ad78bb9.chunk.js": "/met_i_blinken/static/js/2.2ad78bb9.chunk.js",
-    "static/js/2.2ad78bb9.chunk.js.map": "/met_i_blinken/static/js/2.2ad78bb9.chunk.js.map",
-    "index.html": "/met_i_blinken/index.html",
-    "precache-manifest.c2166aac875c904d5e7a005fe6925d31.js": "/met_i_blinken/precache-manifest.c2166aac875c904d5e7a005fe6925d31.js",
-    "service-worker.js": "/met_i_blinken/service-worker.js",
-    "static/css/main.c5e94fbc.chunk.css.map": "/met_i_blinken/static/css/main.c5e94fbc.chunk.css.map"
+    "main.css": "/met-i-blinken/static/css/main.c5e94fbc.chunk.css",
+    "main.js": "/met-i-blinken/static/js/main.f137eb9c.chunk.js",
+    "main.js.map": "/met-i-blinken/static/js/main.f137eb9c.chunk.js.map",
+    "runtime~main.js": "/met-i-blinken/static/js/runtime~main.07acc18f.js",
+    "runtime~main.js.map": "/met-i-blinken/static/js/runtime~main.07acc18f.js.map",
+    "static/js/2.2ad78bb9.chunk.js": "/met-i-blinken/static/js/2.2ad78bb9.chunk.js",
+    "static/js/2.2ad78bb9.chunk.js.map": "/met-i-blinken/static/js/2.2ad78bb9.chunk.js.map",
+    "index.html": "/met-i-blinken/index.html",
+    "precache-manifest.a77cdda5b3101655c6b9e69ad5c50a6e.js": "/met-i-blinken/precache-manifest.a77cdda5b3101655c6b9e69ad5c50a6e.js",
+    "service-worker.js": "/met-i-blinken/service-worker.js",
+    "static/css/main.c5e94fbc.chunk.css.map": "/met-i-blinken/static/css/main.c5e94fbc.chunk.css.map"
   }
 }

@@ -2,7 +2,7 @@
   "name": "met_i_blinken",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dkoujelev.github.com/met_i_blinken",
+  "homepage": "https://dkoujelev.github.io/met-i-blinken",
   "dependencies": {
     "node-sass": "^4.12.0",
     "react": "^16.8.6",

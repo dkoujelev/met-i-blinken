@@ -1,13 +1,14 @@
 import { FaRegMap, FaUtensils, FaTableTennis, FaHome } from "react-icons/fa";
+import React from "react";
 
-type Resources = {
+export type Resource = {
   title: string;
   link: string;
   icon: React.ReactNode;
   description: string;
-}[];
+};
 
-export const resources: Resources = [
+export const resources: Resource[] = [
   {
     title: "MazeMap",
     link:

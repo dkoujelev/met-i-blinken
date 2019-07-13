@@ -2,6 +2,7 @@
   "name": "met_i_blinken",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dkoujelev.github.com/met_i_blinken",
   "dependencies": {
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
@@ -10,6 +11,7 @@
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "@types/jest": "24.0.15",
     "@types/node": "12.6.2",
     "@types/react": "16.8.23",
@@ -20,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,0 +1,51 @@
+@import "./Global.scss";
+
+.footer {
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  height: $footer-height;
+  color: $text-color;
+  font-size: 2rem;
+
+  &::before {
+    content: "OsloMet Social";
+    position: absolute;
+    top: $footer-height / 2 - 3.7rem;
+    font-size: 1.35rem;
+    border-bottom: 1px solid $text-color;
+  }
+
+  .footer-icon {
+    padding: 5px;
+    line-height: 2rem;
+    color: $text-color;
+    text-decoration: none;
+
+    @media (hover: hover) {
+      &.facebook:hover {
+        color: #3c5a99;
+      }
+
+      &.twitter:hover {
+        color: #0084b4;
+      }
+
+      &.linkedin:hover {
+        color: #4875b4;
+      }
+
+      &.instagram:hover {
+        color: #4e433c;
+      }
+
+      &.flickr:hover {
+        color: #0063dc;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import "./Global.scss";
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $header-height;
+  background-color: white;
+
+  .header-title {
+    color: $text-color;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .header-icon {
+    background-color: red;
+    font-size: 2rem;
+    line-height: 1rem;
+    border-radius: 50%;
+    color: white;
+    border: 3px solid red;
+  }
+}
+
+@media (max-width: 520px) {
+  .header {
+    .header-title {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    .header-title {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    .header-title {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (max-width: 319px) {
+  .header {
+    .header-title {
+      font-size: 1.1rem;
+    }
+  }
+}

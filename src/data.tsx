@@ -1,87 +1,71 @@
-import { FaRegMap, FaUtensils, FaTableTennis, FaHome } from "react-icons/fa";
+import {
+  FaRegMap,
+  FaUtensils,
+  FaTableTennis,
+  FaHome,
+  FaGraduationCap,
+  FaRegClock,
+  FaDownload
+} from "react-icons/fa";
 import React from "react";
 
 export type Resource = {
   title: string;
   link: string;
   icon: React.ReactNode;
-  description: string;
 };
 
 export const resources: Resource[] = [
   {
-    title: "MazeMap",
+    title: "Fadderuke",
+    link: "https://student.oslomet.no/fadderuker-ingenior-teknologi-og-data",
+    icon: <p>13. Aug</p>
+  },
+  {
+    title: "Studiestart",
     link:
-      "https://use.mazemap.com/#v=1&zlevel=1&left=10.7153450&right=10.7543490&top=59.9261840&bottom=59.9165320&campusid=53",
-    icon: <FaRegMap />,
-    description: "Kart som hjelper deg å finne frem til riktig rom på campus."
+      "https://student.oslomet.no/anvendt-data-og-informasjonsteknologi-acit",
+    icon: <p>19. Aug</p>
   },
   {
-    title: "Middag",
-    link: "https://www.sio.no/mat-og-drikke",
-    icon: <FaUtensils />,
-    description: "Se hva som er dagen på de ulike SiO spisestedene."
+    title: "Studentslippet",
+    link: "https://studentslippet.no/",
+    icon: <p>24. Aug</p>
   },
   {
-    title: "Book bane",
-    link: "https://www.sio.no/trening/haller-og-baner/book-hall-eller-bane#/",
-    icon: <FaTableTennis />,
-    description: "Her kan du booke squash- og tennisbaner."
+    title: "Grupperom",
+    link: "https://student.oslomet.no/grupperom",
+    icon: <FaRegClock />
   },
   {
-    title: "SiO Bolig",
-    link: "https://www.sio.no/minside/min-okonomi/boligokonomi",
-    icon: <FaHome />,
-    description: "Se informasjon om dine leieforhold og statistikk hos SiO."
+    title: "Programvare",
+    link: "https://student.oslomet.no/grupperom",
+    icon: <FaDownload />
   },
   {
-    title: "MazeMap",
-    link:
-      "https://use.mazemap.com/#v=1&zlevel=1&left=10.7153450&right=10.7543490&top=59.9261840&bottom=59.9165320&campusid=53",
-    icon: <FaRegMap />,
-    description: "Kart som hjelper deg å finne frem til riktig rom på campus."
-  },
-  {
-    title: "Middag",
-    link: "https://www.sio.no/mat-og-drikke",
-    icon: <FaUtensils />,
-    description: "Se hva som er dagen på de ulike SiO spisestedene."
-  },
-  {
-    title: "Book bane",
-    link: "https://www.sio.no/trening/haller-og-baner/book-hall-eller-bane#/",
-    icon: <FaTableTennis />,
-    description: "Her kan du booke squash- og tennisbaner."
-  },
-  {
-    title: "SiO Bolig",
-    link: "https://www.sio.no/minside/min-okonomi/boligokonomi",
-    icon: <FaHome />,
-    description: "Se informasjon om dine leieforhold og statistikk hos SiO."
+    title: "Studentweb",
+    link: "https://fsweb.no/studentweb/login.jsf?inst=FSHIOA",
+    icon: <FaGraduationCap />
   },
   {
     title: "MazeMap",
     link:
       "https://use.mazemap.com/#v=1&zlevel=1&left=10.7153450&right=10.7543490&top=59.9261840&bottom=59.9165320&campusid=53",
-    icon: <FaRegMap />,
-    description: "Kart som hjelper deg å finne frem til riktig rom på campus."
+    icon: <FaRegMap />
   },
   {
     title: "Middag",
     link: "https://www.sio.no/mat-og-drikke",
-    icon: <FaUtensils />,
-    description: "Se hva som er dagen på de ulike SiO spisestedene."
+    icon: <FaUtensils />
   },
   {
     title: "Book bane",
     link: "https://www.sio.no/trening/haller-og-baner/book-hall-eller-bane#/",
-    icon: <FaTableTennis />,
-    description: "Her kan du booke squash- og tennisbaner."
+    icon: <FaTableTennis />
   },
   {
     title: "SiO Bolig",
     link: "https://www.sio.no/minside/min-okonomi/boligokonomi",
-    icon: <FaHome />,
-    description: "Se informasjon om dine leieforhold og statistikk hos SiO."
+    icon: <FaHome />
   }
 ];

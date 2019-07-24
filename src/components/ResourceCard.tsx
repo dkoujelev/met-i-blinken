@@ -1,7 +1,7 @@
 import React from "react";
 import { Resource } from "../data";
 
-export const ResourceCard = ({ title, link, icon, description }: Resource) => {
+export const ResourceCard = ({ title, link, icon }: Resource) => {
   return (
     <a href={link} className="resource-card">
       <div className="card-content">

@@ -5,7 +5,10 @@ import {
   FaHome,
   FaGraduationCap,
   FaRegClock,
-  FaDownload
+  FaDownload,
+  FaEnvelope,
+  FaMicrosoft,
+  FaClipboardList
 } from "react-icons/fa";
 import React from "react";
 
@@ -33,13 +36,29 @@ export const resources: Resource[] = [
     icon: <p>24. Aug</p>
   },
   {
+    title: "Canvas",
+    link: "https://oslomet.instructure.com",
+    icon: <FaClipboardList />
+  },
+  {
+    title: "Epost",
+    link: "https://outlook.office365.com/owa/?realm=hioa.no",
+    icon: <FaEnvelope />
+  },
+  {
+    title: "Office 365",
+    link: "https://login.microsoftonline.com",
+    icon: <FaMicrosoft />
+  },
+  {
     title: "Grupperom",
-    link: "https://student.oslomet.no/grupperom",
+    link: "https://tp.uio.no/oslomet/rombestilling/",
     icon: <FaRegClock />
   },
   {
     title: "Programvare",
-    link: "https://student.oslomet.no/grupperom",
+    link:
+      "https://portal.azure.com/?Microsoft_Azure_Education_correlationId=dbfec94a-07b1-481c-90eb-b2545a05d280#blade/Microsoft_Azure_Education/EducationMenuBlade/software",
     icon: <FaDownload />
   },
   {

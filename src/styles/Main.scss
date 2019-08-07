@@ -6,29 +6,29 @@ $row-gap: 1rem;
 
 .main {
   display: grid;
-  width: calc(100% - 2rem);
-  max-width: 71rem;
+  max-width: 70rem;
   min-width: 220px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, 220px);
   grid-gap: $row-gap $column-gap;
   margin: $header-height auto;
   grid-auto-rows: 1fr;
+  justify-content: center;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 720px) {
   .main {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, 165px);
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 555px) {
   .main {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, 135px);
   }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 307px) {
   .main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 250px;
   }
 }

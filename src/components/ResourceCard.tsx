@@ -1,10 +1,10 @@
 import React from "react";
 import { Resource } from "../data";
 
-export const ResourceCard = ({ title, link, icon }: Resource) => {
+export const ResourceCard: React.FC<Resource> = ({ title, url, icon }) => {
   return (
     <a
-      href={link}
+      href={url}
       target="_blank"
       rel="noopener noreferrer"
       className="resource-card"

@@ -1,0 +1,118 @@
+@import "./Global.scss";
+
+$padding: 20px;
+
+.add-card-modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transition: opacity 0.3s linear, visibility 0.3s linear;
+
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .modal-box {
+    position: relative;
+    width: 300px;
+    height: 306px;
+    background: white;
+    border-radius: 5%;
+    padding: $padding;
+
+    .modal-head {
+      position: absolute;
+      border-bottom: 0.6px solid $opaque-text-color;
+      left: 0;
+      right: 0;
+      padding: 0 $padding $padding $padding;
+      text-align: center;
+
+      h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin: 0;
+        color: $text-color;
+      }
+    }
+
+    .modal-body {
+      position: absolute;
+      top: 4rem;
+      left: 0;
+      right: 0;
+      padding: $padding;
+
+      .modal-text-input {
+        -webkit-appearance: none;
+        border: none;
+        box-shadow: 0 1px 0 0 $opaque-text-color;
+        display: inline-block;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 2rem;
+        outline: none;
+        transition: box-shadow 0.2s ease-out;
+        color: $text-color;
+        font-weight: bold;
+
+        &:nth-child(2) {
+          margin: $padding 0;
+        }
+
+        &::placeholder {
+          font-weight: normal;
+        }
+
+        &:focus {
+          box-shadow: 0 1.7px 0 0 $text-color;
+        }
+      }
+    }
+
+    .modal-foot {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1.3rem $padding;
+      border-top: 0.6px solid $opaque-text-color;
+    }
+
+    .modal-confirm,
+    .modal-cancel {
+      float: right;
+      padding: 6px 15px;
+      border: 1px solid $opaque-text-color;
+      border-radius: 5%;
+      font-size: 1rem;
+      outline: none;
+      transition: transform 0.3s ease-in;
+
+      &:hover {
+        transform: scale(1.03);
+        cursor: pointer;
+      }
+    }
+
+    .modal-confirm {
+      font-weight: bold;
+      background: $text-color;
+      color: white;
+    }
+
+    .modal-cancel {
+      background: white;
+      color: $text-color;
+      margin-right: 10px;
+    }
+  }
+}
